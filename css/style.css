@@ -26,7 +26,7 @@
 
   /* menu */
   nav {
-  
+  position: relative;
     height: 10vh;
     background: var(--clr-black);
    
@@ -265,7 +265,7 @@ gap:0 10rem;
   .image-one{
     height: 100%;
 width: 100%;    
-background-image: url("/portfolio2023/images/skill.jpeg");
+background-image: url("/images/skill.jpeg");
 background-size: cover;
 background-position: center;
 border-radius: 25px;
@@ -275,7 +275,7 @@ border-radius: 25px;
   .image-two{
     height: 100%;
 width: 100%;    
-background-image: url("/portfolio2023/images/STACK.jpeg");
+background-image: url("/images/STACK.jpeg");
 background-size: cover;
 background-position: center;
 border-radius: 25px;
