@@ -473,6 +473,10 @@ z-index: 9999;
   margin:2rem 0;
 
 }
+
+.container p{
+  font-size: 14px;
+}
 .section{
   min-height: 600px;
 }
@@ -480,6 +484,8 @@ z-index: 9999;
 .overlay {
   opacity: 1;
 }
+
+
 
 /* hamburger */
 
