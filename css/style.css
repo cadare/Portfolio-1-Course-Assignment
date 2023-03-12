@@ -43,7 +43,7 @@
     margin-left: auto;
   }
   .nav-links li a {
-    color: white;
+    color: var(--clr-white);
     text-decoration: none;
     font-size: 20px;
   }
@@ -52,7 +52,7 @@
     color:var(--clr-primary)
   }
 
-/* ------------------------------------------------------- */
+/* --------------------logo-name----------------------------------- */
 
 
   .logo-navbar img{
@@ -64,12 +64,6 @@
   
   }
 
-
- 
-
-
-
-  
 
   
     /* red dot*/
@@ -88,15 +82,15 @@
     justify-content: center;
     flex-direction:column;
   
-  background-color: #B00021;
+  background-color: var(--clr-primary);
   align-items: center;
-  color:#fff;
+  color:var(--clr-white);
 
  }
   
   .section h1{
     
-    font-size: 34px;
+    font-size: 44px;
     font-weight: 100;
     letter-spacing: 3px;
     text-align: center;
@@ -105,7 +99,7 @@
   .span-header{
   font-size: 12px;
   font-weight: 100;
-  color:#fff;
+  color:var(--clr-white);
   display: flex;
   justify-content: center;
   margin-top: 12px;
@@ -128,8 +122,8 @@
   /* ---------cards title--------------- */
 .cards-title{
   height: 5rem;
-  background-color: #000;
-  color:#fff;
+  background-color: var(--clr-black);
+  color:var(--clr-white);
 
 display: flex;
 align-items:center;
@@ -168,8 +162,8 @@ letter-spacing: 3.5px;
 
           text-align: center;
           font-family: arial;
-          background-color:#262626 ;
-          color:#fff;
+          background-color:var(--clr-black) ;
+          color:var(--clr-white);
           padding: 40px;
           border-radius: 10px;
        /* border: 2px solid #fff; */
@@ -209,8 +203,8 @@ letter-spacing: 3.5px;
   
         .button-21  {
           width:150px;
-          background-color: #B00021;
-          color: white;
+          background-color: var(--clr-primary);
+          color: var(--clr-white);
           padding: 10px 20px;
           border: none;
           border-radius: 5px;
@@ -223,8 +217,8 @@ letter-spacing: 3.5px;
         }
         
         .card a:hover {
-          background-color: #000;
-          border: 1px solid #fff;
+          background-color: var(--clr-black);
+          border: 1px solid var(--clr-white);
           font-size: large;
           font-weight: bolder;
         }
@@ -239,7 +233,7 @@ letter-spacing: 3.5px;
           justify-content: center;
        background-color: var(--clr-primary);
      
-        color:#fff;
+        color:var(--clr-white);
        
         }
         
@@ -257,15 +251,44 @@ gap:0 10rem;
     position: relative;
     width: 40%;
     height: 400px;
+}
 
-    
+  
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.container h2{
+  /* margin-bottom: 1rem; */
+
+  font-size: 24px;
+  letter-spacing: 3px;
+font-weight: bolder;
+margin-bottom: 3rem;
+}
+
+.container p{
+  font-size: 16px;
+}
+
+  .container li{
+line-height: 4;
+    list-style:none;
+    font-weight: 600;
+    font-size: 12px;
+    border-bottom: 2px dotted var(--clr-white);
+  }
+
+  .active{
+  
+    border-bottom: 2px solid var(--clr-primary);
   }
 
 
   .image-one{
     height: 100%;
 width: 100%;    
-background-image: url("/images/skill.jpeg");
+background-image: url("/images/skills.jpeg");
 background-size: cover;
 background-position: center;
 border-radius: 25px;
@@ -302,19 +325,7 @@ border-radius: 25px;
   }
 
 
-  
-  .container:hover .overlay {
-    opacity: 1;
-  }
 
-  .container h2{
-    /* margin-bottom: 1rem; */
-    padding: 1rem;
-    font-size: 24px;
-    letter-spacing: 3px;
- font-weight: bolder;
- border-bottom: 2px solid var(--clr-white);
-  }
   
   .text {
     color:var(--clr-white);
@@ -335,17 +346,7 @@ border-radius: 25px;
     
   }
 
-.container p{
-  font-size: 14px;
-}
 
-  .container li{
-line-height: 4;
-    list-style:none;
-    font-weight: 600;
-    font-size: 12px;
-    border-bottom: 2px dotted var(--clr-white);
-  }
 
   .contact{
     display:flex;
@@ -365,7 +366,7 @@ line-height: 4;
 
   .contact a{
     text-decoration: none;
-  color:#fff;
+  color:var(--clr-white);
   font-size: 15px;
   margin-left: .5rem;
  
@@ -393,15 +394,10 @@ line-height: 4;
   footer{
     text-align: center;
     box-shadow: rgb(0, 0, 0) 20px 0px 60px 5px;
-  background-color: #000;
+  background-color: var(--clr-black);
      padding: 10px;
    min-height: 3rem;
-   color:#fff;
-  
-  
-  
-     
-  
+   color:var(--clr-white);
   }
   
   footer p {
@@ -410,16 +406,12 @@ line-height: 4;
   
   /* Heart icon on footer google icons */
   .material-symbols-outlined {
-  
-  
-  
-  vertical-align: -7px;
-  
-  }
+vertical-align: -7px;
+}
   
   /* calander icon post card google icons */
   .calendar_month{
-    color:#fff;
+    color:var(--clr-white);
   }
   
   
@@ -436,7 +428,7 @@ line-height: 4;
 
 
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+/* sticky class is added to the navbar*/
 .sticky {
   position: fixed;
   top: 0;
@@ -444,21 +436,10 @@ line-height: 4;
 z-index: 9999;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+/* top padding */
 .sticky + .content {
   padding-top: 60px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* -------------------------------------------------Media Query----------------------------------------- */
 
@@ -530,6 +511,7 @@ nav {
   -webkit-clip-path: circle(100px at 90% -10%);
   transition: all 1s ease-out;
   pointer-events: none;
+  z-index: 999;
 }
 .nav-links.open {
   clip-path: circle(100px at 90% -10%);
