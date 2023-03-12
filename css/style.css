@@ -92,17 +92,17 @@
     
     font-size: 44px;
     font-weight: 100;
-    letter-spacing: 3px;
+    letter-spacing: 6px;
     text-align: center;
   }
   
   .span-header{
-  font-size: 12px;
+  font-size: 16 px;
   font-weight: 100;
   color:var(--clr-white);
   display: flex;
   justify-content: center;
-  margin-top: 12px;
+  margin-top: 16px;
   letter-spacing: 2px;
   }
   
