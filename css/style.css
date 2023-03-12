@@ -464,9 +464,9 @@ z-index: 9999;
 
 
 @media screen and (max-width: 692px) {
-body{
+/* body{
   overflow-x: hidden;
-}
+} */
 
   .wrapper{
    
@@ -579,6 +579,3 @@ li.fade {
 
       
     
-@media screen and (max-width: 768px) {
- 
-}
