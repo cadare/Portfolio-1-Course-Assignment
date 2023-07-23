@@ -111,12 +111,12 @@
 
   .image-profile{
     margin-top:2rem;
-    height:200px;
-    width:200px;
+    height:250px;
+    width:250px;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    background-image:url(https://images.unsplash.com/photo-1630208232589-e42b29428b19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZmlsZSUyMHBob3RvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
-    border:1px solid   #B00021;
+    background-image:url(/images/profile-pic\ \(1\).png);
+    border:1px solid   --clr-white;
       background-size:cover;
   }
   /* ---------cards title--------------- */
